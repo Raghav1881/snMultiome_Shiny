@@ -1,0 +1,26 @@
+Package: orbitofrontalALS
+Title: {shiny} app for McKeever et al. paper on ALS/FTLD in human
+    orbitofrontal cortex.
+Version: 0.0.0.9000
+Authors@R: 
+    person("Raghav", "Sharma", , "raghavv.sharma@mail.utoronto.ca", role = c("cre", "aut"))
+Description: FILL LATER
+License: What license is it under?
+URL: https://github.com/Raghav1881/orbitofrontalALS
+BugReports: https://github.com/Raghav1881/orbitofrontalALS/issues
+Imports: 
+    config (>= 0.3.2),
+    ggplot2 (>= 3.4.3),
+    golem (>= 0.4.1),
+    plotly (>= 4.10.2),
+    Seurat (>= 4.3.0.1),
+    shiny (>= 1.7.5),
+    Signac (>= 1.10.0)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+Remotes:  
+    satijalab/seurat,
+    stuart-lab/signac,
+    tidyverse/ggplot2,
+    plotly/plotly.R
